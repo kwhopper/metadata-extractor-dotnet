@@ -20,8 +20,9 @@ namespace MetadataExtractor.Formats.Tiff
         Double = 12
     }
 
-    /// <summary>An enumeration of data formats used by the TIFF specification.</summary>
-    /// <author>Drew Noakes https://drewnoakes.com</author>
+    /// <summary>
+    /// An enumeration of data formats used by the TIFF specification.
+    /// </summary>
     public sealed class TiffDataFormat
     {
         public static readonly TiffDataFormat Int8U     = new TiffDataFormat("BYTE",      TiffDataFormatCode.Int8U,     1);
